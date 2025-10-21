@@ -9,31 +9,6 @@ Finance Agent: Provides stock prices, fundamentals, and analyst recommendations.
 Features:
 Keyword-based routing to appropriate agents (news, stock, finance).
 Agents collaborate if a query involves multiple domains.
-Interactive console-based interface.
-       ┌─────────────────────┐
-       │      User Input     │
-       └─────────────────────┘
-                 │
-                 ▼
-       ┌─────────────────────┐
-       │      Web Agent      │
-       │  (DuckDuckGoTools) │
-       └─────────────────────┘
-                 │
-      ┌──────────┴──────────┐
-      │                     │
-      ▼                     ▼
-┌───────────────┐     ┌───────────────┐
-│ Finance Agent │     │ Knowledge Base │
-│ (YFinanceTools)│     │   (Optional)  │
-└───────────────┘     └───────────────┘
-      │                     │
-      └──────────┬──────────┘
-                 ▼
-       ┌─────────────────────┐
-       │    Final Output     │
-       └─────────────────────┘
-
 
 2. Batch Question Answering Agent
 
